@@ -1,0 +1,4 @@
+cp authconfig.ini ../build/authconfig.ini
+cp chatconfig.ini ../build/chatconfig.ini
+cp masterconfig.ini ../build/masterconfig.ini
+cp worldconfig.ini ../build/worldconfig.ini

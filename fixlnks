@@ -1,0 +1,38 @@
+rm CMakeLists.txt
+rm CMakeVariables.txt
+rm dAuthServer
+rm dChatFilter
+rm dChatServer
+rm dCommon
+rm dDatabase
+rm dGame
+rm dMasterServer
+rm dNet
+rm dPhysics
+rm dScripts
+rm dWorldServer
+rm dZoneManager
+rm migrations
+rm resources
+rm thirdparty
+rm vanity
+rm versions.txt
+ln -s ../Github/DarkflameServer/CMakeLists.txt CMakeLists.txt
+ln -s ../Github/DarkflameServer/CMakeVariables.txt CMakeVariables.txt
+ln -s ../Github/DarkflameServer/dAuthServer dAuthServer
+ln -s ../Github/DarkflameServer/dChatFilter dChatFilter
+ln -s ../Github/DarkflameServer/dChatServer dChatServer
+ln -s ../Github/DarkflameServer/dCommon dCommon
+ln -s ../Github/DarkflameServer/dDatabase dDatabase
+ln -s ../Github/DarkflameServer/dGame dGame
+ln -s ../Github/DarkflameServer/dMasterServer dMasterServer
+ln -s ../Github/DarkflameServer/dNet dNet
+ln -s ../Github/DarkflameServer/dPhysics dPhysics
+ln -s ../Github/DarkflameServer/dScripts dScripts
+ln -s ../Github/DarkflameServer/dWorldServer dWorldServer
+ln -s ../Github/DarkflameServer/dZoneManager dZoneManager
+ln -s ../Github/DarkflameServer/migrations migrations
+ln -s ../Github/DarkflameServer/resources resources
+ln -s ../Github/DarkflameServer/thirdparty thirdparty
+ln -s ../Github/DarkflameServer/vanity vanity
+ln -s ../Github/DarkflameServer/versions.txt versions.txt
